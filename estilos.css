@@ -1,0 +1,112 @@
+  * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: #fff;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .posicion {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10%;
+
+
+    }
+
+    .caja_ {
+        margin-right: 10px;
+        -webkit-box-shadow: 0px 0px 20px -2px rgba(202, 201, 214, 1);
+        -moz-box-shadow: 0px 0px 20px -2px rgba(202, 201, 214, 1);
+        box-shadow: 0px 0px 20px -2px rgba(202, 201, 214, 1);
+    }
+
+    .box_ {
+        width: 300px;
+        height: 400px;
+        padding-top: 50px;
+        text-align: center;
+        margin-left: 2%;    
+
+    }
+
+    .caja_dos_ {
+        background-color: #2F3DC2;
+        width: 400px;
+    }
+
+
+    /*Button Three*/
+    input {
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 1em;
+    }
+
+    input.btn_panel {
+        color: #2F3DC2;
+        width: 70%;
+    }
+
+    .color {
+        background-color: #2F3DC2;
+        line-height: 60px;
+        text-align: center;
+        color: aliceblue;
+    }
+
+    .btn {
+        position: relative;
+        background-color: #2F3DC2;
+        border: none;
+        padding: 25px;
+        width: 200px;
+        text-align: center;
+        -webkit-transition-duration: 0.4s;
+
+        transition-duration: 0.4s;
+        text-decoration: none;
+        overflow: hidden;
+        margin-bottom: 2em;
+    }
+
+    .btn:hover {
+        background: #fff;
+        box-shadow: 0px 2px 10px 5px #97B1BF;
+        color: #000;
+    }
+
+    .btn:after {
+        content: "";
+        background: #f1c40f;
+        display: block;
+        position: absolute;
+        padding-top: 0;
+        padding-left: 350%;
+        margin-left: -20px !important;
+        margin-top: -120%;
+        opacity: 0;
+        transition: all 0.8s
+    }
+
+    .btn:active:after {
+        padding: 0;
+        margin: 0;
+        opacity: 1;
+        transition: 0s;
+    }
+
+    .btn {
+        text-align: center;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    p {
+        color: #fff;
+        margin-bottom: 5px;
+    }

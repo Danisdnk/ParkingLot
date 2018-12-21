@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+
+<body>
+    <nav class="color">
+        <h2>Parking Lot</h2>
+    </nav>
+    <section class="posicion">
+        <article class="box_ caja_">
+            <form>
+                <input id="nuevoAuto" class="btn" type="" value="1-ingresar nuevo auto">
+                <input id="egresarAuto" class="btn" type="" value="2-Egresar auto">
+                <input id="EstablecerPrecio" class="btn" type="" value="5-Establecer Precio por día ">
+                <input id="FacturarEstadia" class="btn" type="" value="7-facturar estadia">
+
+            </form>
+        </article>
+        <article class="box_ caja_dos_">
+            <form id="form_Envio" method="POST">
+
+                <p> cantidad autos estacionados</p>
+                <input id="cantidadEstacionados" class="btn_panel" type="number" name="Estacionado" disabled>
+                <p> Espacios Disponibles en la cochera</p>
+                <input id="espaciosDisponibles" class="btn_panel" type="number" name="vacios" disabled>
+                <p> consultar precio por dia</p>
+                <input id="consultarPrecioPorDia" class="btn_panel" type="number" name="PrecioEstadia" disabled>
+                <p> Estadia total a facturar a las 00</p>
+                <input id="verEstadiaFacturada" class="btn_panel" type="number" name="verEstadiaFacturada" disabled>
+            </form>
+        </article>
+    </section>
+
+</html>
